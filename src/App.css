@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'SimSun';
+  src: local('SimSun'), url(./fonts/SimSun.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Larish';
+  src: local('Larish'), url(./fonts/larish_neue_semibold.otf) format('opentype');
+}
+
+.App {
+  padding: 10px;
+}
+
+.Wrap {
+  width: 800px;
+}
+
+.App-logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  padding-bottom: 20px;
+  font-family: 'Larish';
+  text-decoration: none;
+}
+
+.one {
+  color: #ed1c24;
+}
+
+.two {
+  color: #5d0772;
+}
+
+.three {
+  color: #005cab;
+}
+
+.four {
+  color: #5fab45;
+}
+.five {
+  color: black;
+}
+@media only screen and (max-width: 600px) {
+  .Wrap {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Wrap {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .Wrap {
+    width: 300px;
+  }
+}
