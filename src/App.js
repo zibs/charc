@@ -16,7 +16,7 @@ class App extends Component {
             <img src={logo} className="App-logo" alt="logo" />
           </div>
           <a className="App-link one" href={pdf1} target="_blank" without rel="noopener noreferrer">
-            Charcuterie 1: You should eat something before coming over
+            Charcuterie 1: you should eat something before coming over
           </a>
           <a className="App-link two" href={pdf2} target="_blank" without rel="noopener noreferrer">
             Charcuterie 2: future decapitations under posh hats
@@ -27,7 +27,7 @@ class App extends Component {
             target="_blank"
             without
             rel="noopener noreferrer">
-            Charcuterie 3: Need not pander
+            Charcuterie 3: need not pander
           </a>
           <a
             className="App-link four"
